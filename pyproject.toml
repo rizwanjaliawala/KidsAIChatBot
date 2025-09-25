@@ -1,0 +1,12 @@
+[project]
+name = "prompt-driven-rizwan"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.117.1",
+    "google-genai>=1.38.0",
+    "openai-agents>=0.2.11",
+    "uvicorn[standard]>=0.35.0",
+]
